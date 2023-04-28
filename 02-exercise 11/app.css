@@ -1,0 +1,19 @@
+/* practice on pseudo classes */
+
+
+/* WRITE YOUR CODE IN HERE!!!!  */
+div{
+    background-color: red;
+}
+div:nth-of-type(2n){
+    background-color: black;
+}
+
+/*  there's another way 
+div:nth-of-type(odd){
+    background-color: red;
+}
+div:nth-of-type(even){
+    background-color: black;
+}
+*/
